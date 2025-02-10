@@ -3,10 +3,10 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `As a dedicated and eager full-stack developer, I am passionate about learning and building web applications. Although I am just starting my journey, I have gained a strong foundation and honed my skills in front-end technologies like React and back-end technologies like Node.js. I am excited to continue growing my skills and contribute to creating innovative solutions that enhance user experiences and support business objectives.`;
+export const HERO_CONTENT = `As a dedicated and eager Software developer, I am passionate about learning and building applications. Although I am just starting my journey, I have gained a strong foundation and honed my skills in technologies like React, Next.js, Node.js, HTML, CSS , JavaScript. I am excited to continue growing my skills and contribute to creating innovative solutions that enhance user experiences and support business objectives.`;
 
-export const ABOUT_TEXT = `As an enthusiastic and adaptable aspiring full-stack developer, I am passionate about building efficient and user-friendly web applications. Though I am just beginning my professional journey, I have developed a solid understanding of technologies like React and Node.js. My interest in web development started from a deep curiosity about how things work, and I am excited to continue learning and growing. I thrive in team settings, enjoy tackling challenges, and aim to contribute to meaningful projects. Outside of coding, I love exploring new technologies and staying engaged with the latest trends in development.
-With a strong commitment to continuous improvement, I am always looking for opportunities to grow both technically and personally. I am confident that my dedication and willingness to learn will make me a valuable contribution to any team. I look forward to contributing fresh ideas and energy to create impactful solutions in the fast-evolving world of web development.`;
+export const ABOUT_TEXT = `As an enthusiastic and adaptable aspiring Software developer, I am passionate about building efficient and user-friendly web applications. Though I am just beginning my professional journey, I have developed a solid understanding of technologies like React and Node.js. My interest in development started from a deep curiosity about how things work, and I am excited to continue learning and growing. I thrive in team settings, enjoy tackling challenges, and aim to contribute to meaningful projects. Outside of coding, I love exploring new technologies and staying engaged with the latest trends in development.
+With a strong commitment to continuous improvement, I am always looking for opportunities to grow both technically and personally. I am confident that my dedication and willingness to learn will make me a valuable contributor to any team. I look forward to contributing fresh ideas and energy to create impactful solutions in the fast-evolving world of development.`;
 
 export const EXPERIENCES = [
   {
@@ -37,32 +37,25 @@ understand terminology. Implemented strategies to take advantage of new opportun
 
 export const PROJECTS = [
   {
-    title: "Jal Raksha",
+    title: "Healo",
     image: project1,
     description:
-      "A centralized platform that hosts peer-reviewed articles on water-saving techniques, case studies, and research findings. Designed and Developed calculators and tools to help users understand their water usage and potential savings. Participated in peer  code reviews to improve code quality and maintainability.  Used tech stack as  HTML,CSS,JS,Figma,Canva,React Native. Managed project version control using GitHub and deployed testing environments.",
-    technologies: ["HTML", "CSS", "JavaScript", "Figma" ,"Canva" ,"React Native", "MongoDB"],
+      "Designed and developed a scalable, secure decentralized token system on blockchain using solidity. Developed 'Healo' an innovative platform promoting sustainable fashion and circular economy by enabling fabric donations, upcycling, and tracking carbon footprints. Led code review sessions to ensure maintainable architecture and system design. Work Built on top of a widely adopted blockchain protocol using solidity , ReactJS, Supabase Database, HTML , CSS , JavaScript. Deployed on Netlify.",
+    technologies: ["HTML", "CSS", "JavaScript", "React" ,"Solidity" ,"SupaBase"],
   },
   {
-    title: "Codex",
+    title: "AI- Interview Simulator ",
     image: project2,
     description:
-      "Designed and developed a scalable, secure decentralized token system on blockchain using Solidity. Led code reviews sessiojs to ensure maintainable architecture and system design. Built on top of a widely adopted blockchain protocol using solidity, ReactJS, MongoDB, HTML, CSS, JS.",
-    technologies: ["Solidity", "ReactJS","MongoDB", "HTML", "CSS", "Javascript"],
+      "Designed and implemented an 'AI Job Simulator,' a platform based on  Artificial intelligence to simulate real-world job scenarios for skill assessment and career guidance. Used Tech Stack as NextJs14 , Clerk for authentication , Neon database , Drizzle ORM, HTML , CSS, JavaScript. Participated in code reviews to improve code quality and maintainability. Managed project version control using GitHub and deployed testing environments.",
+    technologies: ["NextJs", "NeonDB","Clerk", "HTML", "CSS", "Drizzle-ORM"],
   },
   {
-    title: "Portfolio Website",
+    title: "Personal Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information. Managed project version control using GitHub and deployed using vercel. ",
-    technologies: ["React", "Framer Motion", "Tailwind CSS"],
-  },
-  {
-    title: "Web App Clone",
-    image: project4,
-    description:
-      "The Project was based on cloning the Amazon web App using React, HTML, CSS and JavaScript.",
-    technologies: ["React", "HTML", "CSS", "JavaScript"],
+    technologies: ["React", "Framer Motion", "Tailwind CSS", "JavaScript"],
   },
 ];
 
